@@ -1,0 +1,8 @@
+11:04:52,404 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location d:\wildfly-21.0.0.Final\wildfly-21.0.0.Final\standalone\data\content\ed\b8acc678280a7b21432e921f81173e6102d8ba\content
+11:04:52,408 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "first-java-ee-web-app.war" (runtime-name: "first-java-ee-web-app.war")
+11:04:52,562 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: '/first-java-ee-web-app' for server 'default-server'
+11:04:52,618 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "first-java-ee-web-app.war" (runtime-name : "first-java-ee-web-app.war")
+11:06:04,519 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0022: Unregistered web context: '/firstapp' from server 'default-server'
+11:06:04,541 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment firstapp.war (runtime-name: firstapp.war) in 25ms
+11:06:04,560 INFO  [org.jboss.as.server] (External Management Request Threads -- 1) WFLYSRV0009: Undeployed "firstapp.war" (runtime-name: "firstapp.war")
+11:06:04,562 INFO  [org.jboss.as.repository] (External Management Request Threads -- 1) WFLYDR0002: Content removed from location d:\wildfly-21.0.0.Final\wildfly-21.0.0.Final\standalone\data\content\58\952849480713d5239472ad0a42b23e4163c1a8\content
